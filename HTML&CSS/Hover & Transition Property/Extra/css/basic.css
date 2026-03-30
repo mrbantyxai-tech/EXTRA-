@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+}
+
+.box{
+    width: 600px;
+    height: 455px;
+    background-color: red;
+    margin:0 auto;
+}
+
+.pointer{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+}
+.pointer:hover{
+    transform: scale(115%);
+    border: 5px solid white;
+}
+
+.help{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: help;
+}
+.help:hover{
+    transform: scale(115%);
+    border: 5px solid white;
+}
+
+.wait{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    cursor: wait;
+    float: left;
+}
+.wait:hover{
+    transform: scale(115%);
+    border: 5px solid white;
+}
+
+.crosshair{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: crosshair;
+}
+.crosshair:hover{
+    transform: scale(115%);
+    border: 5px solid white;
+}
+
+.text{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: text;
+}
+.text:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+
+}
+
+.notallowed{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: not-allowed;
+}
+.notallowed:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+
+.grab{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: grab;
+}
+.grab:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+.zoomin{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: zoom-in;
+}
+.zoomin:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+
+.cell{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: cell;
+}
+.cell:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+.copy{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: copy;
+}
+.copy:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+
+.move{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: move;
+}
+.move:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}
+
+.alias{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    cursor: alias;
+}
+.alias:hover{
+     transform: scale(115%);
+    border: 5px solid white;
+}

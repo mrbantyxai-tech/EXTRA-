@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.d-ib{
+    display: inline-block;
+}
+body{
+    background-color: #C1D0B5;
+}
+.top-bar-bg{
+    height: 80px;
+    background-color: #606C5D;
+    border-bottom: 2px solid white;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.top-bar{
+    padding: 20px 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Geologica Cursive';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+.space{
+    width: 1220px;
+}
+.top-btns button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Geologica Cursive';
+    padding: 0px 15px;
+}
+.left-box{
+    width: 65%;
+    float: left;
+}
+.big-heading{
+    margin-top: 100px;
+    font-family: 'Hot Dog';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #606C5D;
+    font-size: 60px;
+    width: 550px;
+}
+.para-box{
+    margin-top: 40px;
+    width: 80%;
+    line-height: 35px;
+    font-family: 'Geologica Cursive';
+    font-size: 25px;
+}
+.purchase-btn button{
+    margin-top: 50px;
+    padding: 20px 25px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    background-color: #606C5D;
+}
+.right-box{
+    position: relative;
+    float: right;
+    width: 35%;
+    height: 91.6vh;
+    background-color: #606C5D;
+    text-align: right;
+}
+.coffe-bag{
+    position: absolute;
+    right: 550px;
+    top: 250px;
+}
+.coffe-bag img{
+    width: 250px;
+    transition: all 0.8s;
+}
+.coffe-bag img:hover{
+    transform: scale(1.2);
+}
+.coffe-img{
+    width: 80%;
+}
+.right-box .coffe-img img{
+    width: 95%;
+}
