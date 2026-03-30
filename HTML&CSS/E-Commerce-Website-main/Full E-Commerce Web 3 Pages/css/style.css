@@ -1,0 +1,699 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.d-ib{
+    display: inline-block;
+}
+body{
+    background-color: whitesmoke;
+    background-size: cover;
+
+}
+.titlebar{
+    background-color: rgb(255, 250, 224);
+    padding: 5px 0px;
+}
+.container{
+    width: 1320px;
+    margin:0 auto;
+    font-family: "Roboto", sans-serif;
+}
+.top-heading{
+    float: left;
+    width: 340px;
+}
+.space{
+    width: 900px;
+}
+.english{
+    display: inline-block;
+    width: 80px;
+}
+.english select{
+    border: none;
+    background-color: transparent;
+}
+.logo{
+    margin-top: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.sbox{
+    border: 1px solid black;
+    margin-left: 20px;
+    border-radius: 6px;
+    padding: 0px 5px;
+}
+.sbox input{
+    border: none;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+.location{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 4px 0px;
+    border-radius: 6px;
+}
+.location button{
+    border: none;
+    background-color: transparent;
+}
+.space2{
+    width: 490px;
+}
+.icons{
+    width: 60px;
+}
+.icons ul{
+    padding:0 ;
+}
+.a-depart{
+    border-radius: 5px;
+    width: 140px;
+    background-color: green;
+}
+.a-depart button{
+    border: none;
+    width: 140px;
+    background-color:transparent;
+    color: white;
+    padding: 7px 9px;
+}
+.ic1{
+    width: 70px;
+    margin-left: 100px;
+}
+.ic1 #Home{
+    border: none;
+    background-color: transparent;
+}
+.ic2{
+    width: 70px;
+}
+.ic2 #Shop{
+    border: none;
+    background-color: transparent;
+}
+.ic3{
+    width: 70px;
+}
+.ic3 #Stores{
+    border: none;
+    background-color: transparent;
+}
+.ic4{
+    width: 70px;
+}
+.ic4 #MegaMenu{
+    border: none;
+    background-color: transparent;
+}
+.ic5{
+    width: 70px;
+}
+.ic5 #Pages{
+    border: none;
+    background-color: transparent;
+}
+.ic6{
+    width: 80px;
+}
+.ic6 #Account{
+    border: none;
+    background-color: transparent;
+}
+.Dashboard{
+    width: 80px;
+    font-size: 13px;
+}
+.Docs{
+    width:80px ;
+    font-size: 13px;
+}
+.head-box1{
+    width: 1200px;
+    height: 180px;
+    background-color: rgb(115, 0, 0);
+    margin:0 auto;
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 60px 10px;
+    color: white;
+    margin-top: 100px;
+}
+.red{
+    color: red;
+}
+.orng{
+    color: orange;
+}
+.grn{
+    color: green;
+}
+.b-tagling{
+    font-size: 15px;
+}
+.space3{
+    width: 750px;
+}
+.btns3 .menu{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.menu:hover{
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.089);
+}
+.btns3 .grid{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.btns3 .grid:hover{
+    border: 2px solid green;
+    background-color: rgba(0, 255, 0, 0.089);
+}
+.btns3 .show{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.show select{
+    border: none;
+}
+.btns3 .sortby{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+.sortby select{
+    border: none;
+    width: 185px;
+}
+.container .productbox{
+    width: 310px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.container .productbox:hover{
+    border: 2px solid rgb(0, 255, 0);
+}
+.image{
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.contant{
+    width: 100%;
+    margin-top: 30px ;
+    padding: 10px;
+    position: relative;
+}
+.contant span{
+    color: gray;
+    font-size: 12px;
+}
+.f1 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -1px;
+}
+.contant .rating{
+    color: orange;
+}
+.price-btn{
+    margin-top: 10px;
+}
+.price-btn button{
+    background-color: rgb(0, 157, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 10px;
+    position: absolute;
+    right: 10px;
+}
+.cut{
+    text-decoration: line-through;
+}
+.f2 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: 1px;
+} 
+.f3 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -1px;
+    transform: scale(0.7);
+}
+.f4 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: -60px;
+    transform: scale(0.8);
+}
+.f5 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -1px;
+}
+.f6 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+.f7 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -5px;
+    transform: scale(0.9);
+}
+.f8 img{
+    width: 240px;
+    padding: 5px;
+    position: absolute;
+    left: 30px;
+    top: -1px;
+}
+.bottom-btn.center {
+    text-align: center;  
+    padding: 20px 0;    
+}
+.bottom-btn.center button {
+    display: inline-block; 
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 15px;
+     border: 1px solid gray;
+    
+}
+.bottom-btn.center .b1{
+   background-color: rgb(0, 215, 0); 
+   color: white;
+}
+.container2{
+    width: 1320px;
+    margin:0 auto;
+    font-family: "Roboto", sans-serif;
+background: rgba(255, 251, 105, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.head-box2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.main-grid{
+    background-color: transparent;
+}
+.bg-gray{
+    background-color: rgba(0, 0, 0, 0.104);
+}
+.p-imgs{
+    width: 300px;
+    padding: 5px 10px;
+    margin-right: 80px;
+}
+.products{
+    width: 200px;
+}
+.amount{
+    width: 200px;
+}
+.status{
+    width: 200px;
+}
+.action{
+    width: 200px;
+}
+.remove{
+    width: 50px;
+}
+.grid{
+    text-align: center;
+    font-size: 14px;
+}
+.p-imgs1{
+    width: 300px;
+}
+.p-imgs1 img{
+    height: 100px;
+}
+.products1{
+    width: 200px;
+    text-decoration: underline;
+}
+.amount1{
+    width:200px;
+}
+.status1{
+    width: 200px;
+}
+.tag{
+    background-color: rgb(0, 203, 0);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+.action1{
+    width: 200px;
+}
+.action1 button{
+    background-color: rgb(0, 203, 0);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    border: none;
+}
+.remove1{
+    width: 200px;
+    padding-left: 20px;
+}
+.remove1 i{
+    font-size: 25px;
+    color: rgba(60, 60, 60, 0.447);
+}
+.red-bg{
+    background-color: red;
+}
+.action1 .button-b{
+    background-color: rgb(0, 0, 0);
+}
+.foot-bg{
+    background-color: lightcyan;
+    margin-top: 160px;
+}
+.foot{
+    padding: 5px 0px;
+}
+.foot a{
+    color: rgb(0, 180, 0);
+    font-weight: 900;
+}
+.container3{
+    width: 1320px;
+    margin:0 auto;
+    font-family: "Roboto", sans-serif;
+background: rgba(255, 251, 105, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+    padding: 20px;
+    margin-top: 20px;
+}
+.head-box3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+.head-box3 p{
+    font-size: 12px;
+    color: rgba(76, 76, 76, 0.58);
+    font-weight: 900;
+}
+.product-box{
+    width: 900px;
+}
+.heading-red{
+    width: 900px;
+    background-color: rgba(175, 0, 0, 0.26);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.items1{
+    width: 900px;
+    margin-top: 15px;
+    border-top: 1px solid black;
+}
+.items{
+        border-top: 1px solid black;
+         width: 900px;
+}
+.info{
+    width: 500px;
+    height: 70px;
+}
+.imgs img{
+    height: 70px;
+    margin-left: 10px;
+}
+.texts{
+    position: relative;
+    width: 100px;
+    margin-left: 15px;
+}
+.texts h5{
+    position: absolute;
+    bottom: 40px;
+}
+.texts i{
+    font-size: 10px;
+    color: rgb(6, 207, 6);
+    position: absolute;
+    bottom: 20px;
+}
+.texts span{
+    color: gray;
+}
+.center-add{
+    position: relative;
+    width: 300px;
+}
+.add{
+    position: absolute;
+    bottom: 20px;
+    width: 300px;
+}
+.add div{
+    padding: 2px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 2px;
+}
+.price{
+    position: relative;
+}
+.price h4{
+    position: absolute;
+    bottom: 22px;
+    font-size: 12px;
+}
+.items button{
+    margin-top: 15px;
+    background-color: rgb(10, 210, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 10px;
+    color: white;
+}
+.items .space{
+    width: 595px;
+}
+.items .btn2{
+    background-color: black;
+}
+.payment-box{
+    width: 350px;
+    float: right;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.302);
+    padding: 25px 24px;
+}
+.s-heads{
+    margin-bottom: 15px;
+}
+.summary-box{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 5px;
+}
+.summary-box .inf{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.summary-box .inf4{
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.spac{
+    width: 160px;
+}
+.pay-btn{
+    width: 300px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 165, 0);
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.pay-btn div{
+    padding: 5px;
+}
+
+.pay-btn .spac{
+    width: 110px;
+}
+.para-box{
+    font-size: 12px;
+    color: rgba(88, 88, 88, 0.685);
+    margin-top: 5px;
+}
+.inp-box{
+    margin-top: 10px;
+    width: 300px;
+}
+.inp-box input{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.224);
+        width: 300px;
+        font-weight: 700;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.3);
+        background-color: transparent;
+}
+.redeem-btn{
+    width: 300px;
+    margin-top: 5px;
+}
+.redeem-btn button{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 700;
+}
+a{
+    color: rgb(0, 220, 0);
+}
+.bottom-btn3{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 80px;
+    right: 290px;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+}
+.headbox4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.headbox4 div{
+    color: white;
+    width: 200px;
+    background-color: rgb(0, 146, 0);
+    text-align: center;
+    background-color: #008000;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 34px;
+    clip-path: polygon(10% 0%, 90% 0%, 80% 50%, 90% 100%, 10% 100%, 20% 50%);
+    text-align: center;
+}
+.feedback-box{
+    text-align: center;
+}
+.box{
+    width: 300px;
+  background: rgba(255, 255, 255, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+    padding: 10px;
+}
+.box .contant-box{
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    margin:0 auto;   
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.893);
+border-radius: 16px;
+color: white;
+}
+.contant-box .dp-box{  
+    border-radius: 100%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin:0 auto;
+}
+.dp-box img{
+    width: 100%;
+}
+.para p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.975);
+    text-transform: capitalize;
+}
+.h h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.rating{
+    margin: 10px;
+    text-align: center;
+}
+.rating i{
+    color: orange;
+}
